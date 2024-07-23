@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hammad Ali Haider's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+<style>
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+.skill-mf .progress {
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #ffbd39;
+}
+#typing-animation {
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(20, end) infinite;
+}
+#typing-animation:before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ccc;
+  animation: typing-cursor 0.5s ease-in-out infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing-cursor {
+  from {
+    width: 5px;
+  }
+  to {
+    width: 0;
+  }
+}
+.zoom-effect {
+  overflow: hidden;
+  transition: transform 0.3s ease-out;
+}
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Hammad Ali Haider</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<!-- Left side image -->
+						<div class="one-third js-fullheight img" style="background-image:url(images/new-removebg-preview.png); background-size: cover; background-position: left; position: absolute; left: 0; top: 100px; bottom: 0; width: 50%;">
+							<div class="overlay"></div>
+						</div>
+						<!-- Right side content -->
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: { translateY: '70%' }" style="margin-left: 50%;">
+							<div class="text">
+								<span class="subheading">Hello!</span>
+								<h1 class="mb-4 mt-3">I'm <span>Hammad Haider</span></h1>
+								<span id="typing-animation"></span>
+								<script>
+									const typingAnimationElement = document.getElementById('typing-animation');
+									const typingTexts = [
+										'Turning text into insights with NLP   ',
+									];
+									function playTypingAnimation(text) {
+										for (let i = 0; i < text.length; i++) {
+											setTimeout(() => {
+												typingAnimationElement.textContent += text[i];
+											}, i * 200);
+										}
+										setTimeout(() => {
+											typingAnimationElement.textContent = '';
+											playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+										}, text.length * 200);
+									}
+									playTypingAnimation(typingTexts[0]);
+								</script>
+								<br>
+								<br>
+								<h2>Machine Learning Engineer</h2>
+								<a href="https://github.com/hammadhaideer" class="btn btn-white btn-outline-white py-3 px-4">My works</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                    <div class="row justify-content-start pb-3">
+                        <div class="col-md-12 heading-section ftco-animate">
+                            <h1 class="big">About</h1>
+                            <h2 class="mb-4">About Me</h2>
+                            <p>As I progress through my bachelor's degree in computer science at COMSATS University, I am deeply immersed in mastering the dynamic field of Machine Learning, a cornerstone of modern artificial intelligence. What fascinates me most about Machine Learning is its transformative power to create intelligent systems that learn from data, adapt to new insights, and predict future trends. Through rigorous coursework and practical projects, I've honed my skills in algorithms, statistical models, and data analysis, essential for driving innovation and solving complex challenges.
+                              Amid the vast possibilities within Machine Learning, I am particularly captivated by Natural Language Processing (NLP). NLP stands out for its potential to revolutionize human-computer interaction by enabling machines to understand, interpret, and generate human language. This specialization allows me to delve into the nuances of language, from sentiment analysis and language modeling to developing conversational AI. It's incredibly rewarding to harness these capabilities and make technology more intuitive and responsive to human needs.
+                              My journey in Machine Learning and NLP has nurtured a unique blend of technical prowess and creative problem-solving skills. Looking ahead, I am eager to leverage these abilities in innovative projects that prioritize excellence and user-centric design. I am driven by a passion for advancing AI's impact on society, and I am enthusiastic about contributing to its ongoing evolution.</p>
+                            <ul class="about-info mt-4 px-md-0 px-2">
+                                <li class="d-flex"><span>Profile:</span> <span>Delving deep into Machine Learning, Particularly drawn to NLP, I explore its potential to revolutionize human-computer interaction.</span></li>
+                                <li class="d-flex"><span>Domain:</span> <span>Machine Learning and Data Science</span></li>
+                                <li class="d-flex"><span>Education:</span> <span>Bachelors in Computer Science</span></li>
+                                <li class="d-flex"><span>Language:</span> <span>English, Urdu</span></li>
+                                <li class="d-flex"><span>Skills:</span> <span>Python, Tenserflow, Transformers.</span></li>
+                                <li class="d-flex"><span>Other Skills:</span> <span>Problem-solving, Project Management, Collaboration, Communication, Office &amp; Excel</span></li>
+                                <li class="d-flex"><span>Interest:</span> <span>Reading, Debating, Teaching</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                        <div class="text">
+                            <p class="mb-4">
+                                <span class="number" data-number="10">0</span> <span>+</span>
+                                <span>&nbsp; Projects completed</span>
+                            </p>
+                            <p><a href="https://www.linkedin.com/in/hammad-ali-haider-612b182b1/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="about-img">
+                                        <img src="images\hammad_about.png" class="img-fluid rounded b-shadow-a" alt="image">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-md-7">
+                                    <div class="about-info">
+                                        <p><span class="title-s">Name: </span> <span>Hammad Haider</span></p>
+                                        <p><span class="title-s">Job Role: </span> <span>Machine Learning Engineer</span></p>
+                                        <p><span class="title-s">Experience: </span> <span>1 Years 7 Months</span></p>
+                                        <p><span class="title-s">Address: </span> <span>Attock, Pakistan</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-mf">
+                              <p class="title-s">Skills</p>
+                              <span>Python, TensorFlow, scikit-learn</span> <span class="pull-right"></span>
+                              <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                              <span>Word Embeddings, Transformers, Text Processing</span> <span class="pull-right"></span>
+                              <div class="progress">
+                                  <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                          </div>                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+          	 <h1 class="big big-2">Resume</h1>
+            <h2 class="mb-4">Resume</h2>
+            <p>Enthusiastic computer science student with a keen interest in machine learning and natural language processing. Passionate about leveraging cutting-edge technologies to solve real-world problems and drive innovation. Proficient in front-end development and quality assurance testing, with strong problem-solving skills and a commitment to continuous learning.</p>
+          </div>
+        </div>
+        <div class="row">
+          <h1 class="big-4">Experience</h1>
+          <div class="underline"></div>
+      </div>
+      <br>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="resume-wrap ftco-animate">
+                  <span class="date">2022 - 23</span>
+                  <h2>Freelance Developer | Independent Contractor</h2>
+                  <span class="position">Remote</span>
+                  <p class="mt-4">
+                      <ul>
+                          <li>Developed and implemented machine learning models and natural language processing solutions to address specific business challenges, delivering tailored results to clients.</li>
+                          <li>Managed multiple machine learning and NLP projects, ensuring timely delivery and maintaining high-quality standards.</li>
+                          <li>Optimized project workflows and utilized advanced techniques to enhance productivity and efficiency in machine learning and NLP tasks.</li>
+                      </ul>
+                  </p>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="resume-wrap ftco-animate">
+                  <span class="date">2023 - Present</span>
+                  <h2>Official ALPHA Level Student Ambassador for Microsoft</h2>
+                  <span class="position">Microsoft</span>
+                  <p class="mt-4">
+                      <ul>
+                          <li>Represented Microsoft as an ALPHA Level Student Ambassador, promoting Microsoft technologies and initiatives within the academic community.</li>
+                          <li>Organized and participated in events, workshops, and seminars to educate and inspire fellow students about Microsoft's offerings and opportunities.</li>
+                          <li>Led initiatives to foster a culture of innovation and collaboration within the academic community by organizing hackathons and coding competitions, encouraging students to explore and apply Microsoft technologies in creative ways.</li>
+                      </ul>
+                  </p>
+              </div>
+          </div>
+      </div>
+      <br>
+      <br>
+      
+		<div class="row">
+			<h1 class="big-4">Education</h1>
+			<div class="underline"></div>
+		</div>
+		<br>
+			<div class="row">
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2021-2025</span>
+    					<h2>Bachelors in Computer Science</h2>
+    					<span class="position">COMSATS UNIVERSITY ISLAMABAD</span>
+    					<p class="mt-4"></p>
+    				</div>
+    			</div>
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">2019-2021</span>
+    					<h2>ICS</h2>
+    					<span class="position">FDC ARF KAMRA</span>
+    					<p class="mt-4"></p>
+    				</div>
+				</div>
+    		</div>
+    		<div class="row justify-content-center mt-5">
+    			<div class="col-md-6 text-center ftco-animate">
+    				<p><a href="https://drive.google.com/file/d/1tNjRoJfVPS4LD0KonCWsIxHDZI2P8Qbz/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section class="ftco-section" id="project-section">
+      <div class="container">
+          <div class="row justify-content-center mb-5 pb-5">
+              <div class="col-md-7 heading-section text-center ftco-animate">
+                  <h1 class="big big-2">Projects</h1>
+                  <h2 class="mb-4">Projects</h2>
+                  <p>Below are some sample projects on ML & NLP.</p>
+              </div>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-4 ftco-animate">
+                  <div class="blog-entry">
+                      <a href="https://github.com/hammadhaideer/Building-Word2Vec-from-the-Ground-Up" class="block-20 zoom-effect" style="background-image: url('images/word_to_vectors.jpg');"></a>
+                      <div class="text mt-3">
+                          <h3 class="heading"><a href="https://github.com/hammadhaideer/Building-Word2Vec-from-the-Ground-Up">Building-Word2Vec-from-the-Ground-Up</a></h3>
+                          <p>Custom Word2Vec implementation in Python for learning word embeddings from the Brown corpus.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 ftco-animate">
+                  <div class="blog-entry">
+                      <a href="https://github.com/hammadhaideer/Simple-GPT-2-Text-Generation" class="block-20 zoom-effect" style="background-image: url('images/NLG.jpeg');"></a>
+                      <div class="text mt-3">
+                          <h3 class="heading"><a href="https://github.com/hammadhaideer/Simple-GPT-2-Text-Generation">Simple GPT-2 Text Generation</a></h3>
+                          <p>This project demonstrates text generation using the GPT-2 model from Hugging Face Transformers.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 ftco-animate">
+                  <div class="blog-entry">
+                      <a href="https://github.com/hammadhaideer/Attention-Mechanisms-in-Python" class="block-20 zoom-effect" style="background-image: url('images/attention mechanism in neural networks..jpg');"></a>
+                      <div class="text mt-3">
+                          <h3 class="heading"><a href="https://github.com/hammadhaideer/Attention-Mechanisms-in-Python">Attention-Mechanisms-in-Python</a></h3>
+                          <p>A Python implementation of a basic attention mechanism for neural networks.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row justify-content-center mt-5">
+              <div class="col-md-4 ftco-animate">
+                  <div class="blog-entry">
+                      <a href="https://github.com/hammadhaideer/Fine-Tuning-BERT-for-Text-Classification" class="block-20 zoom-effect" style="background-image: url('images/bert.jpg');"></a>
+                      <div class="text mt-3">
+                          <h3 class="heading"><a href="https://github.com/hammadhaideer/Fine-Tuning-BERT-for-Text-Classification">Fine-Tuning-BERT-for-Text-Classification</a></h3>
+                          <p>This project demonstrates how to fine-tune a BERT model for sequence classification tasks using the Hugging Face Transformers library.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4 ftco-animate">
+                  <div class="blog-entry">
+                      <a href="https://github.com/hammadhaideer/hammadhaideer.github.io" class="block-20 zoom-effect" style="background-image: url('images/website.JPG');"></a>
+                      <div class="text mt-3">
+                          <h3 class="heading"><a href="https://github.com/hammadhaideer/hammadhaideer.github.io">Portfolio Website</a></h3>
+                          <p>Here is the code of the portfolio website you are looking at.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+				<div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg);">
+					<div class="row justify-content-center">
+						<div class="col-md-7 ftco-animate text-center">
+							<h2>More projects on <span>Github</span></h2>
+							<div class="heading">
+								<h4>I love to solve business problems &amp; uncover hidden data stories</h4>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<p><a href="https://github.com/hammadhaideer" class="btn btn-primary py-3 px-5">GitHub</a></p>
+				</div>				
+		</div>
+	</section>
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+             <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Below are the details to reach out to me!</p>
+          </div>
+        </div>
+        <div class="row d-flex contact-info mb-5">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-map-signs"></span>
+          		</div>
+          		<h3 class="mb-4">Address</h3>
+	            <p>Attock, Pakistan</p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-phone2"></span>
+          		</div>
+          		 <h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://0101010101">+92 3311171155</a></p> 
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-paper-plane"></span>
+          		</div>
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">hammadhaideerr@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="align-self-stretch box p-4 text-center">
+          		<div class="icon d-flex align-items-center justify-content-center">
+          			<span class="icon-globe"></span>
+          		</div>
+          		<h3 class="mb-4">Download Resume</h3>
+	            <p><a href="https://drive.google.com/file/d/1tNjRoJfVPS4LD0KonCWsIxHDZI2P8Qbz/view?usp=drive_link">click-here</a></p>
+	          </div>
+          </div>
+		  <div class="container">
+    <div class="text-center">
+        <br>
+        <br>
+        <br>
+        <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+            <li class="ftco-animate normal-txt">Let's Connect</li>
+            <li class="ftco-animate"><a href="https://www.linkedin.com/in/hammad-ali-haider-612b182b1/"><span class="icon-linkedin"></span></a></li>  
+            <li class="ftco-animate"><a href="https://www.facebook.com/profile.php?id=100069615445676&mibextid=ZbWKwL"><span class="icon-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/hammadhaideer?igsh=Y29vNnFxNW94ZTBr"><span class="icon-instagram"></span></a></li>
+        </ul>
+        <br>
+    </div>
+</div>
+
+   </div>
+ </section>
+	  </footer>
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>  
+  <script src="js/main.js"></script>
+  </body>
+</html>
