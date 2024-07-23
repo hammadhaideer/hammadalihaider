@@ -38,7 +38,7 @@ Feel free to open issues or submit pull requests if you have suggestions for imp
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Contact**
+##**Contact**
 
 Email:    hammadhaideerr@gmail.com
 LinkedIn: https://www.linkedin.com/in/hammad-ali-haider-612b182b1/
